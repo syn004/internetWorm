@@ -1,0 +1,26 @@
+{
+  "name": "internetworm",
+  "version": "1.0.0",
+  "description": "一个爬虫项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "hotnode index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syn004/internetWorm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syn004/internetWorm/issues"
+  },
+  "homepage": "https://github.com/syn004/internetWorm#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "hotnode": "0.0.8",
+    "superagent": "^5.1.0"
+  }
+}
